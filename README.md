@@ -1,4 +1,4 @@
-PhoneGap-2.7-Android-plugins-to-make-a-phone-call
+PhoneGap-2.7-Android-plugins-to-make-a-phone-call from your app
 ==================================================
 
 1. Create a new package org.apache.cordova under src folder, if already exist with same name use that one.
