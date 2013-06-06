@@ -8,9 +8,9 @@ PhoneGap-2.7-Android-plugins-to-make-a-phone-call
 5. Put this line <pre> &lt;plugin name="PhoneDialer" value="org.apache.cordova.PhoneDialer"/&gt;</pre> in config.xml file
 6. Modify AndroidManifest.xml file and put <pre> &lt;uses-permission android:name="android.permission.CALL_PHONE" /&gt;</pre> in 
 user-permission section. In activity section place these lines- 
-<pre>&lt;intent-filter&gt;<br/>
-      &lt;action android:name="android.intent.action.CALL" /&gt;<br/>	             	             		        		        
-		 &lt;data android:scheme="tel" /&gt;<br/>
+<pre>&lt;intent-filter&gt;
+      &lt;action android:name="android.intent.action.CALL" /&gt;	             	             		        		        
+		 &lt;data android:scheme="tel" /&gt;
 &lt;/intent-filter&gt;</pre>
 
 
